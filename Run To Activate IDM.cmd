@@ -513,7 +513,7 @@ set "reg=%reg:"=%"
 call :_color2 %Red% "Failed - !reg!"
 )
 
-start https://github.com/Afnanaltaf0/IDMScript & start https://Afnanjamber7.blogspot.com & start https://YouTube.com/@AfnanJamberEdits & start https://YouTube.com/@AHMobile & start https://AH-Mobile.blogspot.com exit /b
+exit /b
 
 ::========================================================================================================================================
 
@@ -648,7 +648,7 @@ set "reg=HKU\%_sid%\SOFTWARE\DownloadManager /v Serial /t REG_SZ /d "FOX6H-3KWH4
 )
 
 echo:
-echo Triggering a few downloads to create certain registry keys, please wait...
+echo Downloading to create key, Wait For a While...
 echo:
 
 set "file=%SystemRoot%\Temp\temp.png"
@@ -686,7 +686,7 @@ goto :Check_file
 :add_key
 
 echo:
-echo Adding registry key...
+echo Doing our Magic...
 echo:
 
 set "reg="%HKLM%" /v "AdvIntDriverEnabled2""
